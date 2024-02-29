@@ -69,7 +69,7 @@ nav {
 header.hero-img {
 	position: relative;
 	height: 100vh;
-	background-image: url('../img/backgroung/playstation-1845880_640.jpg');
+	background-image: url('../img/background/playstation-1845880_640.jpg');
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -133,7 +133,7 @@ header.hero-img {
 
 .aboutus-hero {
 	position: relative;
-	background-image: url('../img/technology-2818664_640.jpg');
+	background-image: url('../img/background/technology-2818664_640.jpg');
 	background-size: cover;
 	background-position: center;
 	color: $light-gray;
@@ -228,7 +228,7 @@ header.hero-img {
 
 .team {
 	position: relative;
-	background-image: url('../img/backgroung/teamwork-3213924_640.jpg');
+	background-image: url('../img/background/teamwork-3213924_640.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	z-index: 0;
@@ -296,7 +296,7 @@ header.hero-img {
 
 .contact {
 	position: relative;
-	background-image: url('../img/skyline-1869214_640.jpg');
+	background-image: url('../img/background/skyline-1869214_640.jpg');
 	background-position: bottom;
 	background-size: cover;
 	background-attachment: fixed;
@@ -355,18 +355,18 @@ header.hero-img {
 	}
 
 	.aboutus-hero {
-		background-image: url('../img/backgroung/technology-2818664_1280.jpg');
+		background-image: url('../img/background/technology-2818664_1280.jpg');
 	}
 
 	.contact {
-		background-image: url('../img/backgroung/skyline-1869214_1280.jpg');
+		background-image: url('../img/background/skyline-1869214_1280.jpg');
 	}
 
 	header.hero-img {
-		background-image: url('../img/backgroung/playstation-1845880_1280.jpg');
+		background-image: url('../img/background/playstation-1845880_1280.jpg');
 	}
 
 	.team {
-		background-image: url('../img/backgroung/teamwork-1280.jpg');
+		background-image: url('../img/background/teamwork-1280.jpg');
 	}
 }
