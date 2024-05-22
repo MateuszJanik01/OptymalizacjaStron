@@ -338,6 +338,41 @@ header.hero-img {
 	}
 }
 
+.up-selling-prompt-visible {
+	position: fixed;
+	width: 30%;
+	height: 40%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: $bg-color;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	border: 2px solid $main-color;
+
+	input {
+		margin-top: 15px;
+	}
+
+	#basket {
+		margin-top: 50px;
+		padding: 10px 20px;
+		text-transform: uppercase;
+	}
+
+	.chkbox {
+		outline: none;
+		cursor: pointer;
+		border: 1px solid #bbc1e1;
+		transform: scale(1.5);
+	}
+}
+
+.up-selling-prompt-invisible {
+	display: none;
+}
+
 @media (min-width: 768px) {
 	.hero-text {
 		h1 {
