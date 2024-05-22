@@ -18,4 +18,20 @@ document.addEventListener('DOMContentLoaded', function () {
 	);
 
 	window.addEventListener('scroll', addShadow);
+
+	const allButtons = document.querySelectorAll('.order');
+	const prompt = document.querySelector('.prompt');
+	const basket = document.querySelector('#basket');
+
+	allButtons.forEach((link) =>
+		link.addEventListener('click', () => {
+			prompt.classList.remove('up-selling-prompt-invisible');
+			prompt.classList.add('up-selling-prompt-visible');
+		})
+	);
+
+	basket.addEventListener('click', function () {
+		prompt.classList.remove('up-selling-prompt-visible');
+		prompt.classList.add('up-selling-prompt-invisible');
+	});
 });
